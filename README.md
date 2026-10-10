@@ -1,8 +1,8 @@
 ## Hi, I'm Alif Tasbir 👋
 
-**AI/ML Engineer · LLMs · RAG · Clinical AI**, based in Leicester, UK
+**AI/ML Engineer · Deep Learning · LLMs & Agents · Healthcare AI**, based in Leicester, UK
 
-I'm an MSc Artificial Intelligence candidate at De Montfort University. I design, fine-tune and deploy large language model and retrieval-augmented generation applications in Python, and I've published deep learning research in clinical AI. I'm open to AI/ML Engineer roles.
+I'm an MSc Artificial Intelligence candidate at De Montfort University. I build machine learning systems end to end, from deep learning research to deployed applications. My work covers biomedical signal models for EEG and ECG using CNNs, LSTMs and GNNs, as well as LLM fine-tuning, RAG, multi-agent systems and efficient edge inference. I've published three peer-reviewed papers in clinical AI, and I'm open to AI/ML Engineer roles.
 
 🌐 **Portfolio:** [a1if.github.io](https://a1if.github.io)  
 💼 **LinkedIn:** [alif-tasbir](https://www.linkedin.com/in/alif-tasbir-16365141b/)  
