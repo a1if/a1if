@@ -6,7 +6,8 @@ I'm an MSc Artificial Intelligence candidate at De Montfort University. I build 
 
 🌐 **Portfolio:** [a1if.github.io](https://a1if.github.io)  
 💼 **LinkedIn:** [alif-tasbir](https://www.linkedin.com/in/alif-tasbir-16365141b/)  
-📫 **Email:** [aliftasbir@gmail.com](mailto:aliftasbir@gmail.com)
+📫 **Email:** [aliftasbir@gmail.com](mailto:aliftasbir@gmail.com)  
+📄 **CV:** [Download PDF](https://a1if.github.io/Alif_Tasbir_CV.pdf)
 
 ---
 
