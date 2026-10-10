@@ -1,49 +1,57 @@
-# Hello there!
+## Hi, I'm Alif Tasbir 👋
 
+**AI/ML Engineer · LLMs · RAG · Clinical AI**, based in Leicester, UK
 
-My name is Alif Tasbir. I am a fresh graduate in Computer Science and Engineering at [University of Information Technology & Sciences](https://uits.edu.bd/) in Bangladesh. Hard working and passionate about software development and data science. Eager to embark on a journey into the dynamic world of artificial intelligence,
+I'm an MSc Artificial Intelligence candidate at De Montfort University. I design, fine-tune and deploy large language model and retrieval-augmented generation applications in Python, and I've published deep learning research in clinical AI. I'm open to AI/ML Engineer roles.
 
-### Interests
-- Back-end Web Development
-- Data Science
-- Machine Learning, Deep Learning
+🌐 **Portfolio:** [a1if.github.io](https://a1if.github.io)  
+💼 **LinkedIn:** [alif-tasbir](https://www.linkedin.com/in/alif-tasbir-16365141b/)  
+📫 **Email:** [aliftasbir@gmail.com](mailto:aliftasbir@gmail.com)
 
+---
 
-## Connect:
-<a target="_blank" href="https://www.linkedin.com/in/alif-tasbir-56aa5a1b2/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 50px" /></a>
-<a target="_blank" href="mailto:aliftasbir@gmail.com"><img src="https://user-images.githubusercontent.com/64092765/178427267-133abe7d-d825-4569-adab-3a4816fdcd99.png" style="width: 50px" /></a>
+### 🔬 Featured: ECG Multi-Agent Triage
 
+A two-agent ECG triage system. A CNN-LSTM perception agent classifies heartbeats and hands events to a frozen Gemma reasoning agent, either as text or as learned virtual tokens. It includes guardrails, an orchestrator and clinician Q&A. This is my MSc dissertation.
 
-<br>
+- **24–78%** faster LLM prompt processing, with balanced accuracy of **0.83 vs 0.73**
+- **10–30%** higher throughput and **12–28%** less energy per decision on a 12 GB GPU
 
+**[▶ Live demo](https://ecg-multi-agent-triage.streamlit.app/)** · [App code](https://github.com/a1if/ecg-multi-agent-triage) · [Research code](https://github.com/a1if/Heterogeneous-Multi-Agent-Edge-AI-for-Clinical-Decision-Support)
 
-## Tools and Technologies I know
+### 🛠 Other projects
 
-#### Front-End
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="width: 50px"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" style="width: 50px"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="width: 50px"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" style="width: 50px;"/>
+| Project | What it does | Stack |
+|---|---|---|
+| [QLoRA + Multi-Hop RAG](https://github.com/a1if/qlora-multihop-rag) | QLoRA fine-tune of DeepSeek-R1-Distill-Qwen-1.5B, plus multi-hop RAG over 5,000 arXiv abstracts, evaluated with BLEU, ROUGE and BERTScore | PyTorch, PEFT, TRL, FAISS, Gradio |
+| [Multimodal RAG System](https://github.com/a1if/-RAG-System) | Bilingual (Bangla and English) RAG with web search, a deep-reasoning mode, and routing between Gemini and gpt-oss | FastAPI, Streamlit, FAISS |
+| [AI Interior Visualizer](https://github.com/a1if/Nano-Banana-Hackathon) | Interior design visualizer built for the Nano Banana hackathon | TypeScript, Gemini 2.5 Flash Image |
 
-<hr>
+### 📄 Publications
 
-#### Back-End
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" style="width: 50px;"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style="width: 50px;"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" style="width: 50px"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" style="width: 50px"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" style="width: 50px;"/> 
-<hr>
+- [Parkinson's disease detection from EEG signal employing autoencoder and RBFNN-based hybrid deep learning framework utilizing power spectral density](https://doi.org/10.1177/20552076241297355), *Digital Health* (2024)
+- [Graph attention network and radial basis function neural network-based hybrid framework for epileptic seizure detection from EEG signal](https://doi.org/10.32629/jai.v7i3.1149), *Journal of Autonomous Intelligence* (2023)
+- [Epileptic seizure detection from EEG signals using linear graph convolutional network and DenseNet based hybrid framework](https://doi.org/10.1016/j.jrras.2023.100607), *Journal of Radiation Research and Applied Sciences* (2023)
 
-#### Databases
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" style="width: 70px;"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" style="width: 70px;"/>
+### 🧰 Tech stack
 
-<hr>
+**LLMs and RAG:** Hugging Face Transformers · QLoRA / PEFT / TRL · LangChain · LangGraph · Ollama · FAISS · ChromaDB · Sentence Transformers · Gemini API  
+**ML and DL:** PyTorch · TensorFlow · Keras · scikit-learn · Pandas · NumPy  
+**APIs and apps:** FastAPI · Flask · Django · Streamlit · Gradio  
+**MLOps:** Git · Docker · MLflow · DVC  
+**Languages:** Python · C · C++ · Java · JavaScript · SQL
 
-#### Data Science
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" style="width: 50px;"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" style="width: 50px;"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" style="width: 50px;"/> <img src="https://matplotlib.org/stable/_images/sphx_glr_logos2_003.png" style="width: 150px;"/> <img src="https://seaborn.pydata.org/_images/logo-tall-lightbg.svg" style="width: 50px;"/> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/260px-Scikit_learn_logo_small.svg.png?20180808062052" style="width: 70px;"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" style="width: 50px;"/>
+<p>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" alt="Python"/>&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="36" alt="PyTorch"/>&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="36" alt="TensorFlow"/>&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="36" alt="scikit-learn"/>&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="36" alt="FastAPI"/>&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="36" alt="Docker"/>&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" width="36" alt="Streamlit"/>
+</p>
 
-<br>
+### 🎓 Education
 
-### Research Experience
- Bachelor Thesis: Epileptic seizure detection from electroencephalogram (EEG) signals using linear graph convolutional network and DenseNet-based hybrid framework
-- Paper: [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1687850723000857)
-- Supervisor: Ferdaus Anam Jibon, Assistant Professor, IUBAT—International University of Business Agriculture and Technology
-- Domain: Machine Learning, Data Science, signal processing and Brain Health
-- Tools:  Python, MNE, Tensorflow, Keras, Numpy, Pandas, Matplotlib, Seaborn, Sklearn, etc.
-- Models: Machine Learning Classifiers, Linear Graph Convolutional Neural Network, Densenet etc.
-
-<br>
+- **MSc Artificial Intelligence**, De Montfort University, Leicester (2025–2026)
+- **BSc Computer Science and Engineering**, UITS, Dhaka (2018–2022), CGPA 3.74/4.00
