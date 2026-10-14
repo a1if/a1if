@@ -24,7 +24,7 @@ A two-agent ECG triage system. A CNN-LSTM perception agent classifies heartbeats
 
 | Project | What it does | Stack |
 |---|---|---|
-| [QLoRA + Multi-Hop RAG](https://github.com/a1if/qlora-multihop-rag) | QLoRA fine-tune of DeepSeek-R1-Distill-Qwen-1.5B, plus multi-hop RAG over 5,000 arXiv abstracts, evaluated with BLEU, ROUGE and BERTScore | PyTorch, PEFT, TRL, FAISS, Gradio |
+| [Fine-Tuned Small LLM for Multi-Hop RAG](https://github.com/a1if/qlora-multihop-rag) | LoRA fine-tuned Qwen3-1.7B that matches a 4.7× larger Qwen3-8B on HotpotQA (exact match 10.4 → 58.4) at ~8× the throughput; hybrid retrieval with reranking, an MCP server and a tool-use fine-tuned agent | PyTorch, PEFT, LangGraph, MCP, FAISS |
 | [Multimodal RAG System](https://github.com/a1if/-RAG-System) | Bilingual (Bangla and English) RAG with web search, a deep-reasoning mode, and routing between Gemini and gpt-oss | FastAPI, Streamlit, FAISS |
 | [AI Interior Visualizer](https://github.com/a1if/Nano-Banana-Hackathon) | Interior design visualizer built for the Nano Banana hackathon | TypeScript, Gemini 2.5 Flash Image |
 
@@ -36,10 +36,10 @@ A two-agent ECG triage system. A CNN-LSTM perception agent classifies heartbeats
 
 ### 🧰 Tech stack
 
-**LLMs and RAG:** Hugging Face Transformers · QLoRA / PEFT / TRL · LangChain · LangGraph · Ollama · FAISS · ChromaDB · Sentence Transformers · Gemini API  
+**LLMs and RAG:** Hugging Face Transformers · LoRA / QLoRA / PEFT / TRL · LangChain · LangGraph · MCP · Ollama · FAISS · ChromaDB · Sentence Transformers · Gemini API  
 **ML and DL:** PyTorch · TensorFlow · Keras · scikit-learn · Pandas · NumPy  
 **APIs and apps:** FastAPI · Flask · Django · Streamlit · Gradio  
-**MLOps:** Git · Docker · MLflow · DVC  
+**MLOps:** Git · GitHub Actions · Docker · MLflow · DVC · OpenTelemetry  
 **Languages:** Python · C · C++ · Java · JavaScript · SQL
 
 <p>
