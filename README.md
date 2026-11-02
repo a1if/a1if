@@ -54,5 +54,5 @@ A two-agent ECG triage system. A CNN-LSTM perception agent classifies heartbeats
 
 ### 🎓 Education
 
-- **MSc Artificial Intelligence**, De Montfort University, Leicester (2025–2026)
+- **MSc Artificial Intelligence**, De Montfort University, Leicester (2025–2026), **Distinction (80%)**
 - **BSc Computer Science and Engineering**, UITS, Dhaka (2018–2022), CGPA 3.74/4.00
