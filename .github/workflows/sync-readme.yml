@@ -1,0 +1,47 @@
+name: Sync README from portfolio
+
+# Rebuilds README.md from the portfolio's Pages CMS data (a1if/a1if.github.io/_data)
+# and latest blog posts. Edit content in Pages CMS, not in README.md.
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6 hours
+  workflow_dispatch:          # "Run workflow" button for an immediate sync
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build_readme.py"
+      - ".github/workflows/sync-readme.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-readme
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build README
+        run: |
+          pip install --quiet pyyaml
+          python scripts/build_readme.py README.md
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "README already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Sync README from portfolio content"
+          git push
