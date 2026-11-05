@@ -105,6 +105,11 @@ def build():
 
     for p in [p for p in projects if p.get("featured")]:
         out += [f"### 🔬 Featured: {p['title']}", ""]
+        if p.get("image"):
+            img = absolute(p["image"])
+            target = p.get("url") or ((p.get("links") or [{}])[0].get("url", "")) or img
+            alt = str(p.get("image_alt") or p["title"]).replace('"', "'")
+            out += [f'<a href="{target}"><img src="{img}" alt="{alt}" width="100%"></a>', ""]
         if p.get("description"):
             out += [" ".join(str(p["description"]).split()), ""]
         out += [f"- {pt}" for pt in p.get("points") or []]
