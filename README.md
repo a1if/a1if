@@ -5,8 +5,8 @@
 I'm a recent MSc Artificial Intelligence graduate from De Montfort University. My work covers deep learning for biomedical signals such as EEG and ECG, using CNNs, LSTMs and graph neural networks. It also covers LLM fine-tuning, retrieval-augmented generation and multi-agent systems, as well as efficient inference on edge hardware. I take models from experiment to product with PyTorch, FastAPI, Docker and MLflow, and I've published three peer-reviewed papers in clinical AI. I'm looking for an AI/ML Engineer role building machine learning solutions for real-world problems.
 
 🌐 **Portfolio:** [a1if.github.io](https://a1if.github.io)  
-📫 **Email:** [aliftasbir@gmail.com](mailto:aliftasbir@gmail.com)  
 📄 **CV:** [Download PDF](https://a1if.github.io/Alif_Tasbir_CV.pdf)  
+📫 **Email:** [aliftasbir@gmail.com](mailto:aliftasbir@gmail.com)  
 💼 **LinkedIn:** [linkedin.com/in/alif-tasbir-16365141b](https://www.linkedin.com/in/alif-tasbir-16365141b/)  
 𝕏 **X:** [x.com/tasbir_alif](https://x.com/tasbir_alif)  
 🆔 **ORCID:** [0000-0001-6697-8974](https://orcid.org/0000-0001-6697-8974)
