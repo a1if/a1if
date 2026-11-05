@@ -15,6 +15,8 @@ I'm a recent MSc Artificial Intelligence graduate from De Montfort University. M
 
 ### 🔬 Featured: ECG Multi-Agent Triage: Heterogeneous Edge AI for Clinical Decision Support
 
+<a href="https://ecg-multi-agent-triage.streamlit.app/"><img src="https://a1if.github.io/images/ecg-triage-demo.webp" alt="Demo of the ECG triage app: analysing a recording, the two agents' conversation, adapter vs text charts, and clinician Q&A" width="100%"></a>
+
 A two-agent ECG triage system. A CNN-LSTM perception agent classifies heartbeats and passes events to a frozen Gemma reasoning agent, either as text or as learned virtual tokens. It includes guardrails, an orchestrator and clinician Q&A. This is a research prototype.
 
 - **24–78%** faster LLM prompt processing than compact text, with balanced accuracy of **0.83 vs 0.73** at 10 and 20 events.
