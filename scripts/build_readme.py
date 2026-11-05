@@ -77,6 +77,9 @@ def build():
     out += [" ".join(str(profile.get("about", "")).split()), ""]
 
     links = [f"🌐 **Portfolio:** [{SITE.split('//')[1]}]({SITE})"]
+    if not any((c.get("icon") == "cv") for c in contact):
+        # The CV button sits at the top of the homepage rather than in the contact buttons.
+        links.append(f"📄 **CV:** [Download PDF]({SITE}/Alif_Tasbir_CV.pdf)")
     for c in contact:
         icon = c.get("icon") or "other"
         if icon == "github":
